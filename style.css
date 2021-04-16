@@ -16,6 +16,12 @@ body {
   font-family: helvetica, sans-serif;
 }
 
+.top {
+	width: 80%;
+	top: 17%;
+	position: fixed;
+	left: 20%;
+}
 
 .map:active {
   opacity: 1;
@@ -79,8 +85,6 @@ body {
   right: 3%;
   top: 15%;
   border: solid;
-  
-
   border-color: #FE8057; 
   border-radius: 40px 40px 40px 40px;
 
