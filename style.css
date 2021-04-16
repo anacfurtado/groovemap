@@ -2,13 +2,75 @@ html,
 body {
   height: 100%;
   overflow: hidden;
+  /* background: #ffffff;
+  /* background-image: radial-gradient(#94c6f7, #112222); */
+  background-image:
+    radial-gradient(
+      #99C2E3,
+      #FE7E52,
+      #FD93B1,
+      #F9D3E6,
+      #F3F3F1,
+      #F3F3F1    
+    ); 
+  font-family: helvetica, sans-serif;
+}
+
+
+.map:active {
+  opacity: 1;
+  background-color: black;
+} 
+
+.profileone, .placestogo, .topsongs {
+  font-family: p22-underground, sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.topsongs {
+  position: fixed;
+  left: 30%;
+  top: 10%;
+}
+
+.placestogo {
+  position: fixed;
+  left: 40%;
+  top: 10%;
+}
+
+.profileone {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+}
+
+.bpm {
+  position: absolute;
+  font-family: p22-underground, sans-serif;
+
+  font-weight: 900;
+  font-size: 18px;
+  left: 88%;
+  top: 10%;
+  text-decoration: underline;
 
 }
 
-/*
-.map:hover {
-  background-color: black;
-} */
+.applications {
+  position: absolute;
+  font-family: p22-underground, sans-serif;
+
+  font-weight: 900;
+  font-size: 18px;
+  left: 38%;
+  top: 10%;
+  text-decoration: underline;
+}
+
+
 
 .map {
   width: 70%;
@@ -17,11 +79,41 @@ body {
   right: 3%;
   top: 15%;
   border: solid;
-  border-color: #CCCACB; 
-  background-color: black;
+  
+
+  border-color: #FE8057; 
   border-radius: 40px 40px 40px 40px;
 
 }
+
+.map2 {
+  width: 70%;
+  height: 80%;
+  position: absolute;
+  right: 3%;
+  top: 15%;
+  border: solid;
+  background-color: #F3F3F1;
+
+  border-color: #FE8057; 
+  border-radius: 40px 40px 40px 40px;
+
+}
+
+.explanation {
+  width: 21%;
+  left: 3%;
+  top: 18%; 
+  position: absolute;
+  font-family: p22-underground, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+  word-wrap: break-word;
+  font-size: 18px;
+}
+
 
 .key {
   position: relative;
@@ -31,36 +123,26 @@ body {
   bottom: 0%;
 }
 
-
-
-body {
- /* background: #ffffff;
-  /* background-image: radial-gradient(#94c6f7, #112222); */
-  background-image:
-    radial-gradient(
-      #CCCCCB,
-      #ffffff
-    );
-  /*color: #aa8888; */
-  font-family: helvetica, sans-serif;
+.study {
+  position: relative;
+  height: 100%;
+  left: 26%;
 }
-      /*
-      #FBE698,
-      #ffffff  */
+
+a:link, a:visited, a:hover, a:active { color: #F47F59;
+       text-decoration: none;
+     }
+
+
 
 .title {
   font-family: hwt-arabesque, sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   left: 3%;
   top: 8%;
   position: absolute;
-  /*
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-  color: #CCCACB; */
-  color: black;
+  color: #F47F59;
+
 }
 
 .blob {
@@ -140,6 +222,38 @@ body {
   animation-duration: 20s;
 }
 
+.blob-28 {
+  width: 300px;
+  height: 290px;
+  top: 35%;
+  left: 64%;
+  -webkit-animation: myturnreverse linear 16s infinite;
+  -moz-animation: myturnreverse linear 16s infinite;
+}
+.blob-28 .blob-piece {
+  position: fixed;
+  width: 300px;
+  height: 290px;
+  background: #016D6F;
+  animation-duration: 9s;
+}
+
+.blob-29 {
+  width: 300px;
+  height: 290px;
+  top: 74%;
+  left: 24%;
+  -webkit-animation: myturnreverse linear 16s infinite;
+  -moz-animation: myturnreverse linear 16s infinite;
+}
+.blob-29 .blob-piece {
+  position: fixed;
+  width: 300px;
+  height: 290px;
+  background: #9DCB3B;
+  animation-duration: 7s;
+}
+
 /*** BLOBS POSITIONS ***/
 
 .blob-1 {
@@ -182,6 +296,8 @@ body {
 .blob-6 {
   top: 38%;
   left: 48%;
+  -webkit-animation: myturnreverse linear 16s infinite;
+  -moz-animation: myturnreverse linear 16s infinite;
 }
 
 .blob-7 {
@@ -192,6 +308,8 @@ body {
 .blob-8 {
   top: 32%;
   left: 55%;
+  -webkit-animation: myturnreverse linear 16s infinite;
+  -moz-animation: myturnreverse linear 16s infinite;
 }
 
 .blob-9 {
@@ -466,7 +584,8 @@ body {
   position: fixed;
   right: 5%;
   top: 15%;
-  font-family: hwt-arabesque, sans-serif;
+  font-family: p22-underground, sans-serif;
+  font-weight: bold;
 }
 
 .rnb {
