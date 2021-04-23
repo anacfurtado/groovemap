@@ -2,9 +2,9 @@ html,
 body {
   height: 100%;
   overflow: hidden;
-  /* background: #ffffff;
+  background: #F3F3F1;
   /* background-image: radial-gradient(#94c6f7, #112222); */
-  background-image:
+ /* background-image:
     radial-gradient(
       #99C2E3,
       #FE7E52,
@@ -12,7 +12,7 @@ body {
       #F9D3E6,
       #F3F3F1,
       #F3F3F1    
-    ); 
+    ); */
   font-family: helvetica, sans-serif;
 }
 
@@ -85,8 +85,9 @@ body {
   right: 3%;
   top: 15%;
   border: solid;
-  border-color: #FE8057; 
+  border-color: #212121; 
   border-radius: 40px 40px 40px 40px;
+  background-color: #212121;
 
 }
 
@@ -97,9 +98,9 @@ body {
   right: 3%;
   top: 15%;
   border: solid;
-  background-color: #F3F3F1;
+  
 
-  border-color: #FE8057; 
+  border-color: #212121; 
   border-radius: 40px 40px 40px 40px;
 
 }
@@ -133,7 +134,7 @@ font-style: normal;
   left: 26%;
 }
 
-a:link, a:visited, a:hover, a:active { color: #F47F59;
+a:link, a:visited, a:hover, a:active { color: #212121;
        text-decoration: none;
      }
 
@@ -145,7 +146,7 @@ a:link, a:visited, a:hover, a:active { color: #F47F59;
   left: 3%;
   top: 8%;
   position: absolute;
-  color: #F47F59;
+  color: #212121;
 
 }
 
